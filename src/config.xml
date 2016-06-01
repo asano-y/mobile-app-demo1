@@ -8,6 +8,7 @@
         Acaric Co. Ltd
     </author>
     <content src="index.html" />
+    <icon src="res/icon-a.jpg" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-navigation href="_WEBAPP_HREF_" />
