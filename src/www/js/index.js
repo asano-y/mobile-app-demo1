@@ -39,7 +39,6 @@ var app = {
         var targetUrl = "_WEBAPP_URL_";
         var bkpLink = document.getElementById("bkpLink");
         bkpLink.setAttribute("href", targetUrl);
-        bkpLink.text = targetUrl;
         window.location.replace(targetUrl);
     },
     // Update DOM on a Received Event

@@ -30,7 +30,7 @@ if [ ¥command -v cordova >/dev/null 2>&1 ]; then
   echo '"cordova" command not found."'
   exit 1
 fi
-cd _BASE_DIR
+cd $_BASE_DIR
 if [ -d $_APP_DIR -o -f $_APP_DIR ]; then
   echo "$_BASE_DIR/$_APP_DIR already exists."
   exit 1
