@@ -12,7 +12,7 @@ usage() {
 
 ## parameter settings
 _BASE_DIR=$(cd $(dirname $0); pwd)
-_APP_DIR=mobileapp-demo-1
+_APP_DIR=mobile-app-demo-1
 _WEBAPP_URL='https://enterprise.acaric.com/MobileHelloWorld/'
 
 while getopts "d:hw:" OPT
@@ -52,6 +52,8 @@ cd $_APP_DIR
 cordova platform add ios --save
 cordova platform add android --save
 mkdir res
+mkdir res/android
+mkdir res/ios
 cd $_BASE_DIR
 _WEBAPP_HREF=$(echo $_WEBAPP_URL | awk -F/ '{print $1}')'//'$(echo $_WEBAPP_URL | awk -F/ '{print $3}')
 _FILES=$(find src -type f | cut -b5-)
