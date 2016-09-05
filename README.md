@@ -10,7 +10,7 @@ This is a cordova-based prototype app.
 
 ## usage
 
-before setup, install cordova CLI.
+before build, [setup environment](docs/PREPARATION.md).
 
 type 
 
