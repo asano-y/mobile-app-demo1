@@ -18,7 +18,7 @@ type
 
 to setup. 
 
-`DIRNAME` is cordova project root directory.
+script makes `DIRNAME` directory, this is cordova project root directory.
 
 `URL` is webapp url used in app.
 
@@ -29,3 +29,5 @@ after setup, type
     $ cordova run ios --device
 
 to run app.
+
+If "requires a development team" error occured in building iOS app, open `DIRNAME/platforms/ios/mobile-app-demo1.xcodeproj` with XCode, and set development team to project.

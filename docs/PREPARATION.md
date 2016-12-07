@@ -31,6 +31,8 @@
   1. install [XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
   2. install iOS tools
 
-     `$ npm install -g ios-sim`
+     `$ sudo npm install -g ios-sim`
 
-     `$ npm install -g ios-deploy`
+     `$ sudo npm install -g ios-deploy`
+
+     If an error occurs on installation, try `--unsafe-perm=true` option.
